@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "SpongeBob",
+    "occupation": "Fry Cook",
+    "location": "A Pineapple Under the Sea"
+  },
+  {
+    "id": 2,
+    "name": "Mr. Krabs",
+    "occupation": "Restaurant Owner",
+    "location": "A Giant Anchor"
+  },
+  {
+    "id": 3,
+    "name": "Squidward",
+    "occupation": "Cashier",
+    "location": "An Easter Island Head"
+  },
+  {
+    "id": 4,
+    "name": "Dexter",
+    "occupation": "Boy Genius",
+    "location": "A Secret Laboratory"
+  },
+  {
+    "id": 5,
+    "name": "Courage",
+    "occupation": "A Cowardly Dog",
+    "location": "Nowhere, Kansas"
+  },
+  {
+    "id": 6,
+    "name": "Doug Funnie",
+    "occupation": "Student",
+    "location": "Bluffington"
+  },
+  {
+    "id": 7,
+    "name": "Bugs Bunny",
+    "occupation": "Looney Toon",
+    "location": "A Rabbit Burrow"
+  },
+  {
+    "id": 8,
+    "name": "Johnny Bravo",
+    "occupation": "Ladies Man",
+    "location": "Aron City"
+  },
+  {
+    "id": 9,
+    "name": "Tommy Pickles",
+    "occupation": "Adventurer",
+    "location": "California"
+  },
+  {
+    "id": 10,
+    "name": "Rocko",
+    "occupation": "Cashier",
+    "location": "O-Town, California"
+  },
+  {
+    "id": 11,
+    "name": "Captain Planet",
+    "occupation": "Superhero",
+    "location": "Earth"
+  },
+  {
+    "id": 12,
+    "name": "Ickis",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  }
+]
