@@ -2,25 +2,29 @@ import React from "react";
 import "./style.css";
 
 function EmployeeCard(props) {
+
+const { employees } = props;
+
   return (
-    <div className="card">
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Occupation:</strong> {props.occupation}
-          </li>
-          <li>
-            <strong>Location:</strong> {props.location}
-          </li>
-        </ul>
-      </div>
-      <span onClick={() => props.removeEmployee(props.id)} className="remove">
-        𝘅
-      </span>
-    </div>
+    <table>
+      <caption>Table of Employees</caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Occupation</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+      {employees.map(employee => (
+        <tr key={employee.id}>
+          <td>{employee.name}</td>
+          <td>{employee.occupation}</td>
+          <td>{employee.location}</td>
+        </tr>
+      ))}
+      </tbody>
+    </table>
   );
 }
 
