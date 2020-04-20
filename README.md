@@ -1,5 +1,7 @@
 # Employee Directory
 
+https://kjenkins5678.github.io/employee-directory/
+
 ## Screenshot
 
 ![Screenshot of Workout Tracker](/assets/screenshot.png)
