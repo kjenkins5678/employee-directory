@@ -18,10 +18,6 @@ function GlobalFilter({
           setGlobalFilter(e.target.value || undefined) // Set undefined to remove the filter entirely
         }}
         placeholder={`${count} records...`}
-        style={{
-          fontSize: '1.1rem',
-          border: '0',
-        }}
       />
     </span>
   )
@@ -48,7 +44,6 @@ function EmployeeTable({ columns, data }) {
     rows,
     prepareRow,
     state,
-    visibleColumns,
     preGlobalFilteredRows,
     setGlobalFilter,
   } = useTable(
@@ -64,12 +59,12 @@ function EmployeeTable({ columns, data }) {
 
   return (
     <>
-      <table {...getTableProps()} className='table'>
         <GlobalFilter
           preGlobalFilteredRows={preGlobalFilteredRows}
           globalFilter={state.globalFilter}
           setGlobalFilter={setGlobalFilter}
         />
+      <table {...getTableProps()} className='table'>
         <thead>
           {headerGroups.map(headerGroup => (
             <tr {...headerGroup.getHeaderGroupProps()}>
