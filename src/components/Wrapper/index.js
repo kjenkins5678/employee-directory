@@ -1,8 +1,9 @@
 import React from "react";
+import EmployeeTable from "../EmployeeTable";
 import "./style.css";
 
-function Wrapper(props) {
-  return <div className="wrapper">{props.children}</div>;
+function Wrapper() {
+return <EmployeeTable></EmployeeTable>;
 }
 
 export default Wrapper;
