@@ -101,7 +101,7 @@ function EmployeeTable({ columns, data }) {
         </tbody>
       </table>
       <br />
-      <div>Showing {rows.length} rows</div>
+      <div id='rows-displayed'>Showing {rows.length} rows</div>
     </>
   )
 }

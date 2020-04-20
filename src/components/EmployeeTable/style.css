@@ -6,3 +6,7 @@ th {
     text-align: center;
     margin-bottom: 15px;
   }
+
+#rows-displayed {
+    text-align: center;
+}
