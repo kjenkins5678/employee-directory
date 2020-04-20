@@ -10,7 +10,7 @@ function GlobalFilter({
   const count = preGlobalFilteredRows.length
 
   return (
-    <span>
+    <div className='filter'>
       Search:{' '}
       <input
         value={globalFilter || ''}
@@ -19,7 +19,7 @@ function GlobalFilter({
         }}
         placeholder={`${count} records...`}
       />
-    </span>
+    </div>
   )
 }
 
