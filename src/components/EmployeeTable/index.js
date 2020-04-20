@@ -17,8 +17,6 @@ function EmployeeTable({ columns, data }) {
     useSortBy
   )
 
-  // const firstPageRows = rows.slice(0, 5)
-
   return (
     <>
       <table {...getTableProps()} className='table'>
