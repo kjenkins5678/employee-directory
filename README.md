@@ -1,3 +1,17 @@
+# Employee Directory
+
+## Screenshot
+
+![Screenshot of Workout Tracker](/assets/screenshot.png)
+
+# React Table
+
+This project uses examples from React Table
+
+<https://react-table.js.org/>
+
+# React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
